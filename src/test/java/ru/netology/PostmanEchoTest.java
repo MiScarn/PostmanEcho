@@ -16,7 +16,7 @@ public class PostmanEchoTest {
         given()
                 .baseUri("https://postman-echo.com")
                 .contentType("text/plain; charset=UTF-8")
-                .body("Привет, МАЙ")
+                .body("Привет, МИР")
                 .when()
                 .post("/post")
                 // Проверки
